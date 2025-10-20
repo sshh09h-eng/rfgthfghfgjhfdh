@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Play2Earn Hub</title>
+  <meta charset="UTF-8" />
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body style="font-family: sans-serif; text-align: center; padding: 40px;">
+  <h2>👋 Welcome, Sakib!</h2>
+  <p>Watch ads and earn ৳1 per view!</p>
+  <button onclick="showAd()" style="padding: 10px 20px; font-size: 16px;">🎥 Watch Ad</button>
+
+  <!-- Monetag Ad Script -->
+  <script src="//libtl.com/sdk.js" data-zone="10062649" data-sdk="show_10062649"></script>
+
+  <script>
+    function showAd() {
+      alert("✅ Ad watched! ৳1 credited.");
+      // এখানে তুমি চাইলে backend API call করতে পারো
+    }
+  </script>
+</body>
+</html>
